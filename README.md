@@ -110,7 +110,9 @@
 
 </html>
 
-#Here is the script:
+
+# Here is the script:
+
 var speechRecognition = window.webkitSpeechRecognition
 
 var recognition = new speechRecognition()
@@ -167,7 +169,9 @@ textbox.on('input', function() {
  content = $(this).val()
 
 })
-#Arduino code :
+
+# Arduino code :
+
 let isConnectted = false;
       let port;
       let writer;
