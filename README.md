@@ -1,8 +1,13 @@
-# task-2
-# Programming a web page to control the arms using web series api / writing arudino code related to the controller
+# Task-2-IOT
+## Programming a web page to control the arms using web series api / writing arudino code related to the controller 
 
-# the HTML code of the web page
 
+
+
+
+### Here is the HTML code of the web page:
+
+```
 <!DOCTYPE html>
 
 <html lang="en" dir="ltr">
@@ -109,10 +114,11 @@
 </body>
 
 </html>
+```
 
+#### Here is the script:
 
-# Here is the script:
-
+```
 var speechRecognition = window.webkitSpeechRecognition
 
 var recognition = new speechRecognition()
@@ -170,8 +176,11 @@ textbox.on('input', function() {
 
 })
 
-# Arduino code :
+```
 
+##### Arduino code :
+
+```
 let isConnectted = false;
       let port;
       let writer;
@@ -213,3 +222,4 @@ let isConnectted = false;
         console.log("err", e);
       }
     }
+```
